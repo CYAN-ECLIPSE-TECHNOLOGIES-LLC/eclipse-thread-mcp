@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XMI-lite fixture (simulator): a reduced stand-in for a Cameo/MagicDraw
+     XMI export, carrying only the element/trace shape the Weaver ingests.
+     Real XMI fidelity is [verify on a real export] per the family spec. -->
+<xmi:XMI xmlns:xmi="http://www.omg.org/spec/XMI/20110701"
+         tool="cameo-xmi-bridge (simulator)" toolVersion="2021x-fixture"
+         runId="MODEL-EXP-2026-001" exportedAt="2026-10-24T13:00:00Z">
+  <modelElement id="ME-1" name="Guidance Controller" kind="Block">
+    <satisfy requirement="ECL-101"/>
+    <implements codeUnit="guidance.c"/>
+  </modelElement>
+  <modelElement id="ME-2" name="Power Manager" kind="Block">
+    <satisfy requirement="ECL-102"/>
+    <implements codeUnit="power_mgr.c"/>
+  </modelElement>
+  <modelElement id="ME-3" name="Telemetry Codec" kind="Block">
+    <satisfy requirement="ECL-103"/>
+    <implements codeUnit="telemetry_codec.c"/>
+  </modelElement>
+</xmi:XMI>
